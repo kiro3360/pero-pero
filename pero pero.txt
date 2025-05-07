@@ -1,5 +1,5 @@
 -- Khai báo dữ liệu
-shared.LoaderTitle = "XHub Loader"
+shared.LoaderTitle = "Anaxa Loader"
 shared.LoaderKeyFrames = {
     [1] = {1, 10},
     [2] = {2, 30},
@@ -9,7 +9,7 @@ shared.LoaderKeyFrames = {
 
 local Config = {
     LoaderData = {
-        Name = shared.LoaderTitle or "XHub Loader",
+        Name = shared.LoaderTitle or "Anaxa Loader",
         Colors = {
             Main = Color3.fromRGB(255, 255, 255),
             Topic = Color3.fromRGB(200, 200, 200),
@@ -22,7 +22,7 @@ local Config = {
 }
 
 local LoadingMessages = {
-    [1] = "Starting XHub...",
+    [1] = "Starting Anaxa...",
     [2] = "Loading scripts...",
     [3] = "Preparing UI...",
     [4] = "Ready!"
@@ -119,7 +119,7 @@ end
 -- Tạo Window
 if Fluent then
     local Window = Fluent:CreateWindow({
-        Title = "pero pero -Tổng hợp-",
+        Title = "Anaxa -Tổng hợp kiến thức:))-",
         SubTitle = "",
         TabWidth = 160,
         Theme = "Dark",
@@ -141,7 +141,7 @@ if Fluent then
         Position = UDim2.new(0.02, 0, 0.05, 0),
         Size = UDim2.new(0, 40, 0, 40),
         Draggable = true,
-        Image = "http://www.roblox.com/asset/?id=75774010417827"
+        Image = "http://www.roblox.com/asset/?id=98132662150074"
     })
 
     AddCorner(8, floatButton)
