@@ -198,7 +198,6 @@ if Fluent then
         PetGo = Window:AddTab({ Title = "Pet Go", Icon = "heart" }),
         Arsenal = Window:AddTab({ Title = "Arsenal", Icon = "crosshair" }),
         StrongestBattlegrounds = Window:AddTab({ Title = "The Strongest Battlegrounds", Icon = "swords" }),
-        Forsaken = Window:AddTab({ Title = "Forsaken", Icon = "swords" }),
         ModGame = Window:AddTab({ Title = "Mod Game", Icon = "settings" })
     }
 
@@ -372,9 +371,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
             {Title = "Phantasm Hub", Desc = "Strongest Battlegrounds Script", Url = "https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"},
             {Title = "Solara Hub", Desc = "Strongest Battlegrounds Script", Url = "https://raw.githubusercontent.com/OhhMyGehlee/TSBG/main/Solara"},
             {Title = "Reaper Hub", Desc = "Strongest Battlegrounds Script", Url = "https://raw.githubusercontent.com/exterauser/exteraHub/main/Loader"}
-        },
-        Forsaken = {
-            {Title = "MMB Hub", Desc = "Forsaken Script", Url = "https://z3rx.tech/script.lua"}
         },
         ModGame = {
             {Title = "Fly X V1", Desc = "Mod Game Script", Url = "https://raw.githubusercontent.com/XSodiez-dev/Fly-X-V1/refs/heads/main/Fly%20X%20V1.lua"},
