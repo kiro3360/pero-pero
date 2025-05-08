@@ -203,68 +203,68 @@ if Fluent then
 
     -- Khai báo các mảng button
     local ScriptButtons = {
-        BloxFruit (đã up)= {
-            {Title = "Blue X Hub (không cần key)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"},
-            {Title = "Lion Hub Premium (không cần key)", Desc = "Blox Fruit Script", Url = "https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"},
-            {Title = "W_azure (không cần key)", Desc = "Blox Fruit Script", Url = "https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"},
-            {Title = "Redz Hub (không cần key)", Desc = "Blox Fruit Script", Url = "https://pastefy.app/ACOX6D6h/raw"},
-            {Title = "Xero Hub (không cần key)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"},
-            {Title = "HoHo Hub (cần key)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"},
-            {Title = "Ronyx Kaitun (đang bị lỗi)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/XSodiez/Kaitun/refs/heads/main/Kaitun"},
-            {Title = "Simple Kaitun (farm bouty nhưng cùi)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/XSodiez/Kaitunn/refs/heads/main/Kaitunn"},
-            {Title = "Min Hub (không cần key)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"},
-            {Title = "Xeter Hub (đang bị lỗi)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua", Extra = function() getgenv().Version = "V1" end},
-            {Title = "Bắp Red Hub (đang bị lỗi)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/BapRed/refs/heads/main/Bap(Beta)"},
-            {Title = "Cokka Hub (có key)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua"},
-            {Title = "Quantum Onyx Hub (không cần key)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"},
-            {Title = "Maru Hub (đang bị lỗi)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"},
-            {Title = "Rise Hub (đang bị lỗi)", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"}
+        BloxFruit -đã up-= {
+            {Title = "Blue X Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"},
+            {Title = "Lion Hub Premium -không cần key-", Desc = "Blox Fruit Script", Url = "https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"},
+            {Title = "W_azure -không cần key-", Desc = "Blox Fruit Script", Url = "https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"},
+            {Title = "Redz Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://pastefy.app/ACOX6D6h/raw"},
+            {Title = "Xero Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"},
+            {Title = "HoHo Hub -cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"},
+            {Title = "Ronyx Kaitun -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/XSodiez/Kaitun/refs/heads/main/Kaitun"},
+            {Title = "Simple Kaitun -farm bouty nhưng cùi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/XSodiez/Kaitunn/refs/heads/main/Kaitunn"},
+            {Title = "Min Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"},
+            {Title = "Xeter Hub -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua", Extra = function() getgenv().Version = "V1" end},
+            {Title = "Bắp Red Hub -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/BapRed/refs/heads/main/Bap(Beta)"},
+            {Title = "Cokka Hub -có key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua"},
+            {Title = "Quantum Onyx Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"},
+            {Title = "Maru Hub -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"},
+            {Title = "Rise Hub -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"}
         },
-        DeadRails (đã up)= {
+        DeadRails -đã up-= {
             {Title = "Aim Bot", Desc = "Dead Rails Script", Url = "https://rawscripts.net/raw/Dead-Rails-Alpha-Alpha-Aimbot-with-bind-30004"},
-            {Title = "Blue X Hub (Không cần key)", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"},
-            {Title = "Speed Hub X (cần key)", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"},
+            {Title = "Blue X Hub -Không cần key-", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"},
+            {Title = "Speed Hub X -cần key-", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"},
             {Title = "Tp Kill NPC", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/huybuda1/AnhCon-PHD-Troll/refs/heads/main/AnhCon_TheNao_LaiManh.lua"},
-            {Title = "Super Hub (đang bị lỗi)", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/Super-XXX-Source/DEAD-RAILS-/refs/heads/main/DEAD%20RAzeta.org/DEAD%20RAILS%20SUPRA%20HUB"},
-            {Title = "Null Fire (không cần key)", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"},
+            {Title = "Super Hub -đang bị lỗi-", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/Super-XXX-Source/DEAD-RAILS-/refs/heads/main/DEAD%20RAzeta.org/DEAD%20RAILS%20SUPRA%20HUB"},
+            {Title = "Null Fire -không cần key-", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"},
             {Title = "Tp Công Trình", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/JonasThePogi/DeadRails/refs/heads/main/newloadstring"},
             {Title = "Tp End", Desc = "Dead Rails Script", Url = "https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"}
         },
-        JujutsuInfinity (đã up)= {
-            {Title = "Solix Hub (cần key)", Desc = "Jujutsu Infinity Script", Url = "https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"},
-            {Title = "Noble Hub (bật là bị văng)", Desc = "Jujutsu Infinity Script", Url = "https://api.luarmor.net/files/v3/loaders/21cecfc256321e341fbe9a0a2df5a564.lua"},
-            {Title = "Toddy Hub (không cần key)", Desc = "Jujutsu Infinity Script", Url = "https://raw.githubusercontent.com/ToddyTheNoobDud/Meepstuff/refs/heads/main/NameThisCool.lua"}
+        JujutsuInfinity -đã up-= {
+            {Title = "Solix Hub -cần key-", Desc = "Jujutsu Infinity Script", Url = "https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"},
+            {Title = "Noble Hub -bật là bị văng-", Desc = "Jujutsu Infinity Script", Url = "https://api.luarmor.net/files/v3/loaders/21cecfc256321e341fbe9a0a2df5a564.lua"},
+            {Title = "Toddy Hub -không cần key-", Desc = "Jujutsu Infinity Script", Url = "https://raw.githubusercontent.com/ToddyTheNoobDud/Meepstuff/refs/heads/main/NameThisCool.lua"}
         },
-        BlueLock (đã up)= {
-            {Title = "Ronix Hub (không cần key)", Desc = "Blue Lock Script", Url = "https://api.luarmor.net/files/v3/loaders/c84ecefd7fa63a35d454d3ecefe3ee7e.lua"},
-            {Title = "Blue Lock Hub1 (cần key)", Desc = "Blue Lock Script", Url = "https://nicuse.xyz/MainHub.lua"},
-            {Title = "Blue Lock Hub2 (cần key)", Desc = "Blue Lock Script", Url = "https://raw.githubusercontent.com/Bhusant/Pillar-chase/refs/heads/main/KeySystem"},
-            {Title = "Express Hub (cần key)", Desc = "Blue Lock Script", Url = "https://api.luarmor.net/files/v3/loaders/d8824b23a4d9f2e0d62b4e69397d206b.lua"},
-            {Title = "NS Hub (cần key)", Desc = "Blue Lock Script", Url = "https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot"},
-            {Title = "Arbix Hub (cần key)", Desc = "Blue Lock Script", Url = "https://pastefy.app/lbLVUm8Z/raw"},
-            {Title = "Rinns Hub (cần key)", Desc = "Blue Lock Script", Url = "https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"}
+        BlueLock -đã up-= {
+            {Title = "Ronix Hub -không cần key-", Desc = "Blue Lock Script", Url = "https://api.luarmor.net/files/v3/loaders/c84ecefd7fa63a35d454d3ecefe3ee7e.lua"},
+            {Title = "Blue Lock Hub1 -cần key-", Desc = "Blue Lock Script", Url = "https://nicuse.xyz/MainHub.lua"},
+            {Title = "Blue Lock Hub2 -cần key-", Desc = "Blue Lock Script", Url = "https://raw.githubusercontent.com/Bhusant/Pillar-chase/refs/heads/main/KeySystem"},
+            {Title = "Express Hub -cần key-", Desc = "Blue Lock Script", Url = "https://api.luarmor.net/files/v3/loaders/d8824b23a4d9f2e0d62b4e69397d206b.lua"},
+            {Title = "NS Hub -cần key-", Desc = "Blue Lock Script", Url = "https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot"},
+            {Title = "Arbix Hub -cần key-", Desc = "Blue Lock Script", Url = "https://pastefy.app/lbLVUm8Z/raw"},
+            {Title = "Rinns Hub -cần key-", Desc = "Blue Lock Script", Url = "https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"}
         },
-        Door (đã up)= {
-            {Title = "Speed Hub (đang lỗi)", Desc = "Door Script", Url = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"},
-            {Title = "Door Hub (không cần key)", Desc = "Door Script", Url = "https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"},
-            {Title = "RoHub (đang lỗi)", Desc = "Door Script", Url = "https://raw.githubusercontent.com/ThatUnfunnyGuy/Main-Scripts/refs/heads/main/RoHub.lua"},
-            {Title = "KODBOL Hub (cần key)", Desc = "Door Script", Url = "https://pastefy.app/awczkDwJ/raw"},
-            {Title = "FFJ Hub (cần key)", Desc = "Door Script", Url = "https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"}
+        Door -đã up-= {
+            {Title = "Speed Hub -đang lỗi-", Desc = "Door Script", Url = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"},
+            {Title = "Door Hub -không cần key-", Desc = "Door Script", Url = "https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"},
+            {Title = "RoHub -đang lỗi-", Desc = "Door Script", Url = "https://raw.githubusercontent.com/ThatUnfunnyGuy/Main-Scripts/refs/heads/main/RoHub.lua"},
+            {Title = "KODBOL Hub -cần key-", Desc = "Door Script", Url = "https://pastefy.app/awczkDwJ/raw"},
+            {Title = "FFJ Hub -cần key-", Desc = "Door Script", Url = "https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"}
         },
-        MM2 (đã up)= {
-            {Title = "MM2 Hub1 (bật là bị kick)", Desc = "MM2 Script", Url = "https://api.luarmor.net/files/v3/loaders/b8fb23f2e68ff3ca4ba3d59d15f32a05.lua"},
-            {Title = "Ronix Hub (đã có bản mới bản này đã cũ)", Desc = "MM2 Script", Url = "https://api.luarmor.net/files/v3/loaders/2136f3786fd368193dd152c435d7ebfb.lua"},
-            {Title = "MM2 Hub2 (không dùng được)", Desc = "MM2 Script", Url = "https://api.luarmor.net/files/v3/loaders/3c4ab478c7ace15ad975e2f7f0db853f.lua"},
-            {Title = "Kiciahook Hub (không cần key)", Desc = "MM2 Script", Url = "https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"},
-            {Title = "Express Hub (cân key)", Desc = "MM2 Script", Url = "https://api.luarmor.net/files/v3/loaders/d8824b23a4d9f2e0d62b4e69397d206b.lua"},
-            {Title = "Foggy Hub (không cần key)", Desc = "MM2 Script", Url = "https://raw.githubusercontent.com/FOGOTY/mm2-piano-reborn/refs/heads/main/scr"},
-            {Title = "Vertex Hub (không cần key)", Desc = "MM2 Script", Url = "https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"}
+        MM2 -đã up-= {
+            {Title = "MM2 Hub1 -bật là bị kick-", Desc = "MM2 Script", Url = "https://api.luarmor.net/files/v3/loaders/b8fb23f2e68ff3ca4ba3d59d15f32a05.lua"},
+            {Title = "Ronix Hub -đã có bản mới bản này đã cũ-", Desc = "MM2 Script", Url = "https://api.luarmor.net/files/v3/loaders/2136f3786fd368193dd152c435d7ebfb.lua"},
+            {Title = "MM2 Hub2 -không dùng được-", Desc = "MM2 Script", Url = "https://api.luarmor.net/files/v3/loaders/3c4ab478c7ace15ad975e2f7f0db853f.lua"},
+            {Title = "Kiciahook Hub -không cần key-", Desc = "MM2 Script", Url = "https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"},
+            {Title = "Express Hub -cân key-", Desc = "MM2 Script", Url = "https://api.luarmor.net/files/v3/loaders/d8824b23a4d9f2e0d62b4e69397d206b.lua"},
+            {Title = "Foggy Hub -không cần key-", Desc = "MM2 Script", Url = "https://raw.githubusercontent.com/FOGOTY/mm2-piano-reborn/refs/heads/main/scr"},
+            {Title = "Vertex Hub -không cần key-", Desc = "MM2 Script", Url = "https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"}
         },
-        Fish (đã up)= {
-            {Title = "Ronix Hub (bị kick)", Desc = "Fish Script", Url = "https://api.luarmor.net/files/v3/loaders/ec32643721793227480ebe4d0980bda4.lua"},
-            {Title = "Speed Hub (không cần key)", Desc = "Fish Script", Url = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"}
+        Fish -đã up-= {
+            {Title = "Ronix Hub -bị kick-", Desc = "Fish Script", Url = "https://api.luarmor.net/files/v3/loaders/ec32643721793227480ebe4d0980bda4.lua"},
+            {Title = "Speed Hub -không cần key-", Desc = "Fish Script", Url = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"}
         },
-        BladeBall (ad chưa up)= {
+        BladeBall -ad chưa up-= {
             {Title = "Blade Ball Hub", Desc = "Blade Ball Script", Url = "https://api.luarmor.net/files/v3/loaders/f2b3338a19b7987d1dd989c53a1e3cb2.lua"},
             {Title = "Ronix Hub", Desc = "Blade Ball Script", Url = "https://api.luarmor.net/files/v3/loaders/2136f3786fd368193dd152c435d7ebfb.lua"},
             {Title = "SP Hub", Desc = "Blade Ball Script", Url = "https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/BladeBallEnglish"},
@@ -272,7 +272,7 @@ if Fluent then
             {Title = "Trevous Hub", Desc = "Blade Ball Script", Url = "https://raw.githubusercontent.com/ImNotRox1/Trevous-Hub/refs/heads/main/blade-ball.lua"},
             {Title = "Zap Hub", Desc = "Blade Ball Script", Url = "https://zaphub.xyz/Exec"}
         },
-        Evade (ad chưa up)= {
+        Evade -ad chưa up-= {
             {Title = "Fly X V1", Desc = "Evade Script", Url = "https://raw.githubusercontent.com/XSodiez-dev/Fly-X-V1/refs/heads/main/Fly%20X%20V1.lua"},
             {Title = "Evade Hub", Desc = "Evade Script", Url = "https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"},
             {Title = "Neuron Hub", Desc = "Evade Script", Url = "https://raw.githubusercontent.com/Yumiara/Python/main/Main.lua"},
@@ -280,17 +280,17 @@ if Fluent then
             {Title = "Evade Hub", Desc = "Evade Script", Url = "https://raw.githubusercontent.com/CF-Trail/random/main/.x.vr.e.hi/loader.lua"},
             {Title = "Moon Hub", Desc = "Evade Script", Url = "https://raw.githubusercontent.com/V3rmz/LemonadeHub/main/Mobile"}
         },
-        FruitBattlegrounds (ad chưa up)= {
+        FruitBattlegrounds -ad chưa up-= {
             {Title = "Switch Hub", Desc = "Fruit Battlegrounds Script", Url = "https://api.luarmor.net/files/v3/loaders/4ae71d76cbc995dd03fb9332e47e0fe8.lua"},
             {Title = "Fruit Battlegrounds Hub", Desc = "Fruit Battlegrounds Script", Url = "https://raw.githubusercontent.com/JumbleBumble/Scripts/main/FruitBattlegrounds.lua"},
             {Title = "Kater Hub", Desc = "Fruit Battlegrounds Script", Url = "https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"},
             {Title = "Star Hub", Desc = "Fruit Battlegrounds Script", Url = "https://raw.githubusercontent.com/WanHubMan/StarHub/main/StarHubPaid"},
             {Title = "Fruit Battlegrounds Hub", Desc = "Fruit Battlegrounds Script", Url = "https://raw.githubusercontent.com/LOLking123456/battle551/main/fruit00"}
         },
-        AriseCrossover (ad chưa up)= {
+        AriseCrossover -ad chưa up-= {
             {Title = "Goomba Hub", Desc = "Arise Crossover Script", Url = "https://raw.githubusercontent.com/Just Colonies/goombahub/main/AriseCrossover.lua"}
         },
-        KingLegacy (ad chưa up)= {
+        KingLegacy -ad chưa up-= {
             {Title = "King Legacy Hub", Desc = "King Legacy Script", Url = "https://raw.githubusercontent.com/rndmq/Serverlist/refs/heads/main/Loader"},
             {Title = "BT Hub", Desc = "King Legacy Script", Url = "https://lua-library.btteam.net/script-auth.txt"},
             {Title = "Neutron Hub", Desc = "King Legacy Script", Url = "https://raw.githubusercontent.com/PawsThePaw/Neutron.lua/main/MainNeutron.lua"},
@@ -300,11 +300,11 @@ if Fluent then
             {Title = "Noob Hub", Desc = "King Legacy Script", Url = "https://raw.githubusercontent.com/SHAREHACK/script/main/kl"},
             {Title = "HULK Hub", Desc = "King Legacy Script", Url = "https://raw.githubusercontent.com/HULKUexe/mobileX/main/FreeScript.lua"}
         },
-        PetGo (ad chưa up)= {
+        PetGo -ad chưa up-= {
             {Title = "Speed Hub", Desc = "Pet Go Script", Url = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"},
             {Title = "Rinns Hub", Desc = "Pet Go Script", Url = "https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"}
         },
-        Arsenal (ad chưa up)= {
+        Arsenal -ad chưa up-= {
             {Title = "Ronix Hub", Desc = "Arsenal Script", Url = "https://api.luarmor.net/files/v3/loaders/2136f3786fd368193dd152c435d7ebfb.lua"},
             {Title = "Arsenal Hub", Desc = "Arsenal Script", Url = "https://api.luarmor.net/files/v3/loaders/bbfd6f90c7adab2c7ebc355c200ba7f1.lua"},
             {Title = "Ar \"Arsenal Script", Url = "https://raw.githubusercontent.com/KasymM3/Green/refs/heads/main/Hub"},
@@ -314,7 +314,7 @@ if Fluent then
             {Title = "Ronix Hub", Desc = "Arsenal Script", Url = "https://api.luarmor.net/files/v3/loaders/93f86be991de0ff7d79e6328e4ceea40.lua"},
             {Title = "Weed Hub", Desc = "Arsenal Script", Url = "https://raw.githubusercontent.com/ex55/weed-client/refs/heads/main/main.lua"}
         },
-        StrongestBattlegrounds (ad chưa up)= {
+        StrongestBattlegrounds -ad chưa up-= {
             {Title = "Speed Hub", Desc = "Strongest Battlegrounds Script", Url = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"},
             {Title = "The Strongest Battlegrounds Hub", Desc = "Strongest Battlegrounds Script", Url = "https://nicuse.xyz/MainHub.lua"},
             {Title = "Animations Hub", Desc = "Strongest Battlegrounds Script", Url = "https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt"},
