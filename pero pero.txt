@@ -198,7 +198,7 @@ if Fluent then
         PetGo = Window:AddTab({ Title = "Pet Go", Icon = "heart" }),
         Arsenal = Window:AddTab({ Title = "Arsenal", Icon = "crosshair" }),
         StrongestBattlegrounds = Window:AddTab({ Title = "The Strongest Battlegrounds", Icon = "swords" }),
-        Forsaken = Window:AddTab({ Title = "Forsaken", Icon + "swords" }),
+        Forsaken = Window:AddTab({ Title = "Forsaken", Icon = "swords" }),
         ModGame = Window:AddTab({ Title = "Mod Game", Icon = "settings" })
     }
 
