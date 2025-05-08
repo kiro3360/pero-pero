@@ -198,6 +198,7 @@ if Fluent then
         PetGo = Window:AddTab({ Title = "Pet Go", Icon = "heart" }),
         Arsenal = Window:AddTab({ Title = "Arsenal", Icon = "crosshair" }),
         StrongestBattlegrounds = Window:AddTab({ Title = "The Strongest Battlegrounds", Icon = "swords" }),
+        Forsaken = Window:AddTab({ Title = "Forsaken", Icon + "swords" }),
         ModGame = Window:AddTab({ Title = "Mod Game", Icon = "settings" })
     }
 
@@ -207,18 +208,68 @@ if Fluent then
             {Title = "Blue X Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"},
             {Title = "Lion Hub Premium -không cần key-", Desc = "Blox Fruit Script", Url = "https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"},
             {Title = "W_azure -không cần key-", Desc = "Blox Fruit Script", Url = "https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"},
-            {Title = "Redz Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://pastefy.app/ACOX6D6h/raw"},
+            {Title = "Redz Hub -đã up bản mới-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau\"},
             {Title = "Xero Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"},
             {Title = "HoHo Hub -cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"},
-            {Title = "Ronyx Kaitun -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/XSodiez/Kaitun/refs/heads/main/Kaitun"},
-            {Title = "Simple Kaitun -farm bouty nhưng cùi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/XSodiez/Kaitunn/refs/heads/main/Kaitunn"},
+            {Title = "Moon Hub -NEW SCRIPT-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/MoonHub"},
+            {Title = "Hoho Hub -Bounty Hunter- -cần key-", Desc = "Blox Fruit Script", Url = "_G["HoHo Hub Auto Bounty V4"] = {
+    ["Avatar"] = "rbxassetid://8598068647",
+    ["Farm Method"] = "Normal",
+    ["Select Team"] = "Pirate",
+    ["Discord Webhook"] = "",
+    ["Bypass Teleport"] = false,
+    ["Max Level Distance"] = 612,
+    ["Don't attack friends"] = true,
+    ["Don't attack player have cup"] = false,
+    ["Distance Attack Y"] = 2, -- Shark Race = 0; Another >= 6
+    ["Chat After Kill"] = {
+        ["Active"] = false,
+        ["List Chat"] = {""},
+    },
+    ["Yourself"] = {
+        ["Invisible From Ken"] = true,
+        ["No Stun"] = true,
+    },
+    ["SafeZone"] = {Enabled = true, ["Health Left (%)"] = 25, ["Wait Until Heal (%)"] = 80},
+    ["Time Control"] = {
+        ["Max Time Target Player"] = 120,
+    },
+    ["Abilities"] = {
+        ["Auto Click"] = true,
+        ["Melee"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Sword"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Gun"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Fruit"] = {
+            Z = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6},
+            V = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6}, -- don't forget to disable V if u r using zoan fruits
+            F = {Enabled = false, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+    },
+}
+_G.SupperFixLag = true
+_G["Auto Gacha & Store Fruit"] = true
+
+_G.loadCustomId = "fac6dbd013c78163f8061ce11b2c1330"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()"},
             {Title = "Min Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"},
-            {Title = "Xeter Hub -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua", Extra = function() getgenv().Version = "V1" end},
-            {Title = "Bắp Red Hub -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/BapRed/refs/heads/main/Bap(Beta)"},
+            {Title = "Banana Hub -Free- -NEW SCRIPT-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt" end},
+            {Title = "Tsuo Hub -NEW SCRIPT-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"},
             {Title = "Cokka Hub -có key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua"},
             {Title = "Quantum Onyx Hub -không cần key-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"},
-            {Title = "Maru Hub -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"},
-            {Title = "Rise Hub -đang bị lỗi-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"}
+            {Title = "Maru Hub -ĐÃ TẢI LÊN BẢN MỚI-", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"},
+            {Title = "Zen Hub -NEW -", Desc = "Blox Fruit Script", Url = "https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua"}
         },
         DeadRails = {
             {Title = "Aim Bot", Desc = "Dead Rails Script", Url = "https://rawscripts.net/raw/Dead-Rails-Alpha-Alpha-Aimbot-with-bind-30004"},
@@ -321,6 +372,9 @@ if Fluent then
             {Title = "Phantasm Hub", Desc = "Strongest Battlegrounds Script", Url = "https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"},
             {Title = "Solara Hub", Desc = "Strongest Battlegrounds Script", Url = "https://raw.githubusercontent.com/OhhMyGehlee/TSBG/main/Solara"},
             {Title = "Reaper Hub", Desc = "Strongest Battlegrounds Script", Url = "https://raw.githubusercontent.com/exterauser/exteraHub/main/Loader"}
+        },
+        Forsaken = {
+            {Title = "MMB Hub", Desc = "Forsaken Script", Url = "https://z3rx.tech/script.lua"}
         },
         ModGame = {
             {Title = "Fly X V1", Desc = "Mod Game Script", Url = "https://raw.githubusercontent.com/XSodiez-dev/Fly-X-V1/refs/heads/main/Fly%20X%20V1.lua"},
